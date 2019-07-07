@@ -1,0 +1,23 @@
+{
+  "name": "bogatyrev-maxim/movavi-test",
+  "description": "Movavi test",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1",
+    "ext-SimpleXML": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-bcmath": "*",
+    "psr/log": "^1.1",
+    "ext-libxml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RateRUB\\": "src/",
+      "RateRUBTest\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2"
+  }
+}
